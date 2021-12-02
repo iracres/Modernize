@@ -1,0 +1,169 @@
+* {
+    width:auto;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+}
+#backdrop {
+    background-color:rgb(26, 26, 26);
+    height:1205px;
+    width:976px;
+}
+#header {
+    height:140px;
+}
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo {
+    height: auto;
+    padding:15px;
+}
+#contact {
+    color: white;
+    font-size: 10px;
+    padding: 10px 15px 40px 10px;
+}
+#navbar {
+    height: 40px;
+    background: linear-gradient(180deg, rgba(107,107,107,1) 0%, rgb(54, 54, 54) 50%, rgba(15,15,15,1) 100%);
+}
+.navbutton {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+    color:rgb(185, 185, 185);
+}
+#navbar i {
+    font-size: 10px;
+    margin: 4px 0px 0px 2px;
+}
+#main {
+    height: 650px;
+}
+#picture {
+    background-image: url("assets/main_pic.png");
+    width: 976px;
+    height:355px;
+}
+#subbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:165px;
+}
+.element {
+    height: 130px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.element .text {
+    width: 140px;
+}
+.element .text h2 {
+    color:rgb(204, 114, 29);
+    display:inline-block;
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+.element .text p {
+    color: white;
+    display:inline-block;
+    margin: 0px 0px 0px 0px;
+    font-size: 12px;
+
+}
+.icon {
+    max-width: 50px;
+    max-height:50px;
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+#purchase {
+    height: 130px;
+    background-color: black;
+    background-image: url(assets/stripe.png);
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#purchase .text {
+    width: 650px;
+}
+#purchase .text h1 {
+    margin: 0px 0px 5px 35px;
+    font-weight: lighter;
+    font-size: 25px;
+
+}
+#purchase .text p {
+    margin: 0px 0px 7px 40px;
+    font-size: 12px;
+    
+}
+#purchase button {
+    background: linear-gradient(180deg, rgb(219, 143, 72) 0%, rgb(204, 114, 29) 50%, rgb(221, 148, 79) 100%);    
+    color: white;
+    margin:25px;
+    padding: 8px 25px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+}
+#portfolio {
+    height:405px;
+}
+#titlebar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#titlebar h3 {
+    margin: 15px;
+    color: white;
+}
+#titlebar a {
+    color: orange;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 12px;
+}
+#titlebar i {
+    margin: 4px 5px;
+    font-size:10px;
+}
+#projects{
+    margin:0%;
+    width: 976px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.project {
+    width: 210px;
+    margin:0px 0px 25px 0px;
+}
+.project img {
+    max-width: 210px;
+    border: 5px solid rgb(43, 43, 43);
+}
+.project h3 {
+    color:rgb(204, 114, 29)
+}
+.project p {
+    color: white;
+    font-size: 10px;
+}
+#portfolio #backtotop {
+    color: rgb(148, 148, 148);
+    text-align: right;
+    font-size: 10px;
+    margin: 17px 30px 8px 8px;
+}
+
+
